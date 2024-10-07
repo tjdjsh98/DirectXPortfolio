@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\Model.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\BuildShadowMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\Default.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\Global.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\Terrain.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Git\DirectX3DPortfolio\Libraries\Lib\Light.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

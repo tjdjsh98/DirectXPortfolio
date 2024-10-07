@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Engine">
+      <UniqueIdentifier>{4c2bc714-4b3d-427d-91ed-aef91bf6dc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics">
+      <UniqueIdentifier>{bb774588-9e70-473b-9b31-56f07f56b1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{2df01f4b-664b-48f7-8e24-444138fd33d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utils">
+      <UniqueIdentifier>{27323da8-3569-4524-b976-ccb830bb44d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utils\SimpleMath">
+      <UniqueIdentifier>{404df594-14a5-4960-9913-e6d7d03c891b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics\Geometry">
+      <UniqueIdentifier>{7637bdcd-33f8-4225-b6bb-c82b8cfcfb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics\Buffer">
+      <UniqueIdentifier>{b9fb7135-7cec-45c2-9b8d-3fc8a8c89820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Component">
+      <UniqueIdentifier>{5ffd79a2-8241-431b-89a3-766cf2ac957b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resources">
+      <UniqueIdentifier>{ddf22ee8-16a9-4ea2-ada6-340dbbe86a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resources\Shader">
+      <UniqueIdentifier>{a89903c4-611f-4106-9f6f-1a76b6057659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Engine\Shaders">
+      <UniqueIdentifier>{37b29ae9-b061-46db-905f-87eac63a5d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject">
+      <UniqueIdentifier>{7b06eeed-f52b-4a6f-9600-348e345739cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Managers">
+      <UniqueIdentifier>{aca1199f-10ac-411a-8780-e22968961ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utils\ImGui">
+      <UniqueIdentifier>{6a5644f5-72be-464c-a0a9-01283eb2136e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resources\Model">
+      <UniqueIdentifier>{f42e904b-e5eb-4785-a177-b022041ea8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Engine\Shaders\Common">
+      <UniqueIdentifier>{7ef4a4ed-63ab-41b3-a7e4-89635883831b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resources\Animation">
+      <UniqueIdentifier>{4cffaabc-4357-47b9-a19f-001285c02098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Component\Render">
+      <UniqueIdentifier>{157cf307-a569-4a45-9e29-4e95b247cda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Component\Rigidbody">
+      <UniqueIdentifier>{7430f585-3c15-4f6c-91b5-f4e5447c4fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utils\Phyiscs">
+      <UniqueIdentifier>{c25ab6a6-a415-4d21-8dca-bdb36ab48ee7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>99. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IExcute.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>01. Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>99. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>98. Utils\SimpleMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>03. Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>03. Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>03. Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>98. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>99. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>03. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>03. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>03. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryHelper.cpp">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>02. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>02. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>02. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>02. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMove.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BindShaderDesc.cpp">
+      <Filter>03. Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>98. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>98. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>03. Resources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>03. Resources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBuffer.cpp" />
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>03. Resources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>02. Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>02. Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderer.cpp">
+      <Filter>02. Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>02. Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>02. Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>05. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainPicker.cpp" />
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>98. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Gizmo.cpp" />
+    <ClCompile Include="MathUtils.cpp" />
+    <ClCompile Include="TerrainCollider.cpp">
+      <Filter>02. Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="ShadowMap.cpp" />
+    <ClCompile Include="CharacterController.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Light.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IExcute.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>01. Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>98. Utils\SimpleMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>03. Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>03. Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>03. Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>98. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>03. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>03. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>03. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryHelper.h">
+      <Filter>01. Graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>02. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>02. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>02. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>02. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMove.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BindShaderDesc.h">
+      <Filter>03. Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>98. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>98. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>98. Utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>03. Resources\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>03. Resources\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBuffer.h" />
+    <ClInclude Include="AnimationClip.h">
+      <Filter>03. Resources\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>02. Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>02. Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>02. Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>02. Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>02. Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>05. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxBoxGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxBVH.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxBVHBuildStrategy.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxCapsuleGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxConvexMesh.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxConvexMeshGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxCustomGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryHit.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryInternal.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryQuery.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryQueryContext.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGeometryQueryFlags.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxGjkQuery.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHairSystemDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHairSystemGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHeightField.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHeightFieldDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHeightFieldFlag.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHeightFieldGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxHeightFieldSample.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxMeshQuery.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxMeshScale.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxParticleSystemGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxPlaneGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxReportCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxSimpleTriangleMesh.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxSphereGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTetrahedron.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTetrahedronMesh.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTetrahedronMeshGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTriangle.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTriangleMesh.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\PxTriangleMeshGeometry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geomutils\PxContactBuffer.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="geomutils\PxContactPoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\PxGpu.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\PxPhysicsGpu.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="omnipvd\PxOmniPvd.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="pvd\PxPvd.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="pvd\PxPvdSceneClient.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="pvd\PxPvdTransport.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="solver\PxSolverDefs.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="task\PxCpuDispatcher.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="task\PxTask.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="task\PxTaskManager.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleDrive.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleDrive4W.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleDriveNW.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleDriveTank.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleNoDrive.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleSDK.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleShaders.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleTireFriction.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleUpdate.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleUtil.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleUtilControl.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleUtilSetup.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleUtilTelemetry.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle\PxVehicleWheels.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\braking\PxVehicleBrakingFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\braking\PxVehicleBrakingParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\commands\PxVehicleCommandHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\commands\PxVehicleCommandParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\commands\PxVehicleCommandStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\drivetrain\PxVehicleDrivetrainComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\drivetrain\PxVehicleDrivetrainFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\drivetrain\PxVehicleDrivetrainHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\drivetrain\PxVehicleDrivetrainParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\drivetrain\PxVehicleDrivetrainStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxActor\PxVehiclePhysXActorComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxActor\PxVehiclePhysXActorFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxActor\PxVehiclePhysXActorHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxActor\PxVehiclePhysXActorStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxConstraints\PxVehiclePhysXConstraintComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxConstraints\PxVehiclePhysXConstraintFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxConstraints\PxVehiclePhysXConstraintHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxConstraints\PxVehiclePhysXConstraintParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxConstraints\PxVehiclePhysXConstraintStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxRoadGeometry\PxVehiclePhysXRoadGeometryComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxRoadGeometry\PxVehiclePhysXRoadGeometryFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxRoadGeometry\PxVehiclePhysXRoadGeometryHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxRoadGeometry\PxVehiclePhysXRoadGeometryParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\physxRoadGeometry\PxVehiclePhysXRoadGeometryState.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\pvd\PxVehiclePvdComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\pvd\PxVehiclePvdFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\pvd\PxVehiclePvdHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleAPI.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleComponent.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleComponentSequence.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleLimits.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleMaths.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\PxVehicleParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\rigidBody\PxVehicleRigidBodyComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\rigidBody\PxVehicleRigidBodyFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\rigidBody\PxVehicleRigidBodyParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\rigidBody\PxVehicleRigidBodyStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\roadGeometry\PxVehicleRoadGeometryState.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\steering\PxVehicleSteeringFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\steering\PxVehicleSteeringParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\suspension\PxVehicleSuspensionComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\suspension\PxVehicleSuspensionFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\suspension\PxVehicleSuspensionHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\suspension\PxVehicleSuspensionParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\suspension\PxVehicleSuspensionStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\tire\PxVehicleTireComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\tire\PxVehicleTireFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\tire\PxVehicleTireHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\tire\PxVehicleTireParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\tire\PxVehicleTireStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\wheel\PxVehicleWheelComponents.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\wheel\PxVehicleWheelFunctions.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\wheel\PxVehicleWheelHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\wheel\PxVehicleWheelParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle2\wheel\PxVehicleWheelStates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxActor.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxActorData.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxAggregate.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxAnisotropy.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArrayConverter.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationFlag.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationJointReducedCoordinate.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationLink.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationMimicJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationReducedCoordinate.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationTendon.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxArticulationTendonData.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxAttachment.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxBaseMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxBroadPhase.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxClient.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxConeLimitedConstraint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxConfig.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxConstraint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxConstraintDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxContact.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxContactModifyCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxDeletionListener.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxDirectGPUAPI.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFEMClothFlags.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFEMClothMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFEMMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFEMParameter.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFEMSoftBodyMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxFiltering.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxForceMode.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxHairSystemFlag.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxImmediateMode.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxIsosurfaceExtraction.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxLineStripSkinning.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxLockedData.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxNodeIndex.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleBuffer.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleGpu.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleNeighborhoodProvider.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleSolverType.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleSystem.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxParticleSystemFlag.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPBDMaterial.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPBDParticleSystem.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPhysics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPhysicsAPI.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPhysicsSerialization.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPhysXConfig.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPruningStructure.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxQueryFiltering.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxQueryReport.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxResidual.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxRigidActor.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxRigidBody.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxRigidDynamic.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxRigidStatic.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxScene.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSceneDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSceneLock.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSceneQueryDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSceneQuerySystem.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSDFBuilder.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxShape.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSimulationEventCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSimulationStatistics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSmoothing.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSoftBody.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSoftBodyFlag.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSparseGridParams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="PxVisualizationParameter.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxBoxController.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxCapsuleController.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxController.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxControllerBehavior.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxControllerManager.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxControllerObstacles.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="characterkinematic\PxExtended.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\PxCollisionDefs.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxBase.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxCollection.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxCoreUtilityTypes.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxInsertionCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxMetaData.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxMetaDataFlags.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxPhysXCommonConfig.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxProfileZone.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxRenderBuffer.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxRenderOutput.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxSerialFramework.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxSerializer.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxStringTable.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxTolerancesScale.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\PxTypeInfo.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\windows\PxWindowsDelayLoadHook.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxBVH33MidphaseDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxBVH34MidphaseDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxBVHDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\Pxc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxConvexMeshDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxCooking.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxCookingInternal.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxMidphaseDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxSDFDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxTetrahedronMeshDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cooking\PxTriangleMeshDesc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cudamanager\PxCudaContext.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cudamanager\PxCudaContextManager.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cudamanager\PxCudaTypes.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxBinaryConverter.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxBroadPhaseExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxCollectionExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxConstraintExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxContactJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxConvexMeshExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxCudaHelpersExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxCustomGeometryExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxCustomSceneQuerySystem.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxD6Joint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxD6JointCreate.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDefaultAllocator.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDefaultCpuDispatcher.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDefaultErrorCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDefaultSimulationFilterShader.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDefaultStreams.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxDistanceJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxExtensionsAPI.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxFixedJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxGearJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxGjkQueryExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxJointLimit.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxMassProperties.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxParticleClothCooker.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxParticleExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxPrismaticJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRackAndPinionJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRaycastCCD.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRemeshingExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRepXSerializer.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRepXSimpleType.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRevoluteJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRigidActorExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxRigidBodyExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSamplingExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSceneQueryExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSceneQuerySystemExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSerialization.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxShapeExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSimpleFactory.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSmoothNormals.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSoftBodyExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxSphericalJoint.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxStringTableExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxTetMakerExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxTetrahedronMeshAnalysisResult.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxTetrahedronMeshExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxTriangleMeshAnalysisResult.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\PxTriangleMeshExt.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="filebuf\PxFileBuf.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\Px.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAlignedMalloc.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAlloca.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAllocator.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAllocatorCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxArray.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAssert.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxAtomic.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBasicTemplates.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBitAndData.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBitMap.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBitUtils.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBounds3.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxBroadcast.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxErrorCallback.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxErrors.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxFlags.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxFoundation.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxFoundationConfig.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxFPU.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxHash.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxHashInternals.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxHashMap.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxHashSet.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxInlineAllocator.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxInlineAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxInlineArray.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxIO.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMat33.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMat34.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMat44.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMath.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMathIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMathUtils.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMemory.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxMutex.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxPhysicsVersion.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxPinnedArray.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxPlane.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxPool.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxPreprocessor.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxProfiler.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxQuat.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSIMDHelpers.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSimpleTypes.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSList.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSocket.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSort.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSortInternals.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxStrideIterator.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxString.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxSync.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxTempAllocator.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxThread.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxTime.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxTransform.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxUnionCast.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxUserAllocated.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxUtilities.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVec2.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVec3.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVec4.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecMath.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecMathAoSScalar.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecMathAoSScalarInline.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecMathSSE.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecQuat.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\PxVecTransform.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\neon\PxUnixNeonAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\neon\PxUnixNeonInlineAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixFPU.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixInlineAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixMathIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\PxUnixTrigConstants.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\sse2\PxUnixSse2AoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\unix\sse2\PxUnixSse2InlineAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsFPU.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsInclude.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsInlineAoS.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsMathIntrinsics.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\windows\PxWindowsTrigConstants.h">
+      <Filter>98. Utils\Phyiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainPicker.h" />
+    <ClInclude Include="Quadtree.h">
+      <Filter>98. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmo.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="TerrainCollider.h">
+      <Filter>02. Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="ShadowMap.h" />
+    <ClInclude Include="CharacterController.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Light.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>98. Utils\SimpleMath</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shaders\Default.fx">
+      <Filter>00. Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Light.fx">
+      <Filter>00. Engine\Shaders\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Global.fx">
+      <Filter>00. Engine\Shaders\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Terrain.fx">
+      <Filter>00. Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\BuildShadowMap.fx">
+      <Filter>00. Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Model.fx">
+      <Filter>00. Engine\Shaders\Common</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

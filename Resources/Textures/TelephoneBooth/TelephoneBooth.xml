@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>background</Name>
+        <DiffuseFile>background_Base_color.png</DiffuseFile>
+        <SpecularFile>background_Base_color.png</SpecularFile>
+        <NormalFile>background_Normal_OpenGL.png</NormalFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>booth</Name>
+        <DiffuseFile>booth_Base_color.png</DiffuseFile>
+        <SpecularFile>booth_Base_color.png</SpecularFile>
+        <NormalFile>booth_Normal_OpenGL.png</NormalFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.87135226" G="0" B="0" A="1"/>
+        <Specular R="0.87135226" G="0" B="0" A="33.639999"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>glass</Name>
+        <DiffuseFile>glass_Base_color.png</DiffuseFile>
+        <SpecularFile>glass_Base_color.png</SpecularFile>
+        <NormalFile>glass_Base_color.png</NormalFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.14111447" G="0.14111447" B="0.14111447" A="1"/>
+        <Specular R="0.14111447" G="0.14111447" B="0.14111447" A="82.031837"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+</Materials>

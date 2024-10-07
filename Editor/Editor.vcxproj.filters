@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{db468e5f-7d8b-40e0-91fc-d4d02cf67cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorTool">
+      <UniqueIdentifier>{303487ac-b31a-4915-ae1f-26bf4e37cdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0c1efa54-f215-4be0-ae80-fbee578e37fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Demo">
+      <UniqueIdentifier>{794bcd0c-6588-4650-9345-ba9cf6ddd486}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AsType.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h">
+      <Filter>EditorTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTool.h">
+      <Filter>Scene\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFileDialogApp.h" />
+    <ClInclude Include="TestDemo.h">
+      <Filter>Scene\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorWindow.h">
+      <Filter>Scene\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainEditor.h">
+      <Filter>Scene\Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Converter.cpp">
+      <Filter>EditorTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AsType.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTool.cpp">
+      <Filter>Scene\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFileDialogApp.cpp" />
+    <ClCompile Include="TestDemo.cpp">
+      <Filter>Scene\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorWindow.cpp">
+      <Filter>Scene\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainEditor.cpp">
+      <Filter>Scene\Demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
